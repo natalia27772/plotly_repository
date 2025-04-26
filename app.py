@@ -13,4 +13,4 @@ if hist_button: # al hacer clic en el botón
     fig = px.histogram(car_data, x="odometer")
         
     # mostrar un gráfico Plotly interactivo
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True) 
